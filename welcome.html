@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benvenuto nel progetto test_1</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        max-width: 44rem;
+        margin: 0 auto;
+        padding: 3rem 1.25rem;
+        color: #1f2937;
+        font: 1rem/1.6 system-ui, sans-serif;
+      }
+
+      h1, h2 {
+        line-height: 1.2;
+      }
+
+      code {
+        padding: 0.15rem 0.35rem;
+        border-radius: 0.25rem;
+        background: #f3f4f6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Benvenuto in test_1</h1>
+      <p>
+        Questo progetto è un semplice programma Python da riga di comando:
+        stampa un saluto e, se vuoi, può personalizzarlo con un nome.
+      </p>
+
+      <h2>Come funziona</h2>
+      <p>
+        Senza argomenti, il programma saluta il mondo. Passandogli un nome,
+        usa quel nome nel messaggio.
+      </p>
+
+      <h2>Avvio</h2>
+      <p>Apri un terminale nella cartella del progetto ed esegui:</p>
+      <pre><code>python main.py
+python main.py Giovanni</code></pre>
+      <p>Il primo comando stampa <code>Hello, World!</code>; il secondo stampa
+        <code>Hello, Giovanni!</code>.</p>
+
+      <h2>Test</h2>
+      <p>Per eseguire i test automatici, usa:</p>
+      <pre><code>python -m unittest discover -s tests -v</code></pre>
+    </main>
+  </body>
+</html>
